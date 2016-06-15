@@ -1,0 +1,81 @@
+body
+{
+	font-size: 20px;
+}
+
+a, a:visited, a:hover, a:active
+{
+	color: black;
+	text-decoration: none;
+}
+
+select
+{
+	
+	color: #6D7FA2;
+	font-weight: bold;
+}
+
+select option
+{
+	font-weight: bold;
+}
+
+select, #now_location
+{
+	font-size: 18px;
+}
+
+#main
+{
+	text-align: center;
+	width: 500px;
+	margin: 50px auto 0 auto;
+}
+
+.forecast
+{
+	text-align: justify;
+	width: 350px;
+	height: 130px;
+	display: block;
+	margin: 20px auto 20px auto;
+	border: 3px #8291B0 solid;
+	border-radius: 17px;
+	
+}
+
+.forecast
+{
+	background: #CFF0FD;
+	transition: 0.5s;
+}
+
+.forecast:hover
+{
+	border-color: #6D7FA2;
+	background: #FCFFFF;
+	transition: 0.5s;
+}
+.forecast_text
+{
+	display: inline-block;
+	padding: 10% 0 10% 0;
+}
+.forecast_info, .forecast_date
+{
+
+}
+
+.forecast_temp
+{
+	font-weight: bold;
+	font-size: 22px;
+}
+
+.image_weather
+{
+	float: left;
+	display: inline;
+	margin: 0 10px 0 10px;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Weather API</title>
+		<link type="text/css" rel="stylesheet" href="style.css">
+		<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+		<script src="scripts.js"></script>
+	</head>
+	<body>
+		<div id="top">
+			<h1>Weather API</h1>
+		</div>
+		<div>
+			<a href="https://www.yahoo.com/?ilc=401" target="_blank"> <img src="https://poweredby.yahoo.com/purple.png" width="134" height="29"/> </a> 
+		</div>
+		<div id="main">
+			<select id="change_city" onchange="change_city()">
+				<option value="0">Выберите город</option>
+				<option value="voronezh, voronezh oblast">Воронеж</option>
+				<option value="moscow, moscow federal city">Москва</option>
+				<option value="st. petersburg, saint petersburg federal city">Санкт-Петербург</option>
+			</select>
+			<input id="now_location" type="text" title="Указанный город" disabled="disabled">
+			<div id="forecast"></div>
+		</div>
+	</body>
+</html>
